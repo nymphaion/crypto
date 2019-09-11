@@ -1,0 +1,29 @@
+{
+  "name": "nymphaion/crypto",
+  "type": "library",
+  "description": "PHP cryptography library",
+  "keywords": [
+    "php",
+    "library",
+    "cryptography"
+  ],
+  "homepage": "https://ollyxar.com/nymphaion",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Oleksii Svyrydenko",
+      "email": "alexslipknot@europe.com",
+      "homepage": "https://ollyxar.com/"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "ext-openssl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Nymphaion\\Crypto\\": "src/",
+      "Nymphaion\\Crypto\\Exceptions\\": "src/Exceptions/"
+    }
+  }
+}
